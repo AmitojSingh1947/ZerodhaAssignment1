@@ -1,0 +1,185 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px auto;
+}
+.logo{
+    max-height: 100px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    vertical-align: middle;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.mynav{
+    padding-left:100px ;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;  
+    box-shadow: 2px 1px 2px #eee;
+    padding-bottom: 10px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-family: sans-serif;
+    color: #666;
+    font-size: .9rem;
+}
+.landing-logo{
+    max-height: 45vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #424242;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.signup{
+    font-family: sans-serif;
+    background-color: rgb(34, 158, 207);
+    padding-top: 10px;
+    margin-left: 570px;
+    margin-right: 570px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.7rem;
+}
+.mycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-content{
+   font-family: sans-serif;
+   font-weight: 100px;
+   font-size: 1rem;
+   line-height: 1.7rem;
+   margin: 10px auto;
+   padding-left: 12px;
+   padding-right: 15px;
+   color: #666;
+   margin-top: 150px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 110px;
+}
+.ExploreParty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
+}
+.anc{
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+
+}
+.anc:hover{
+    color: #666;
+}
+.presslogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentclass{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.parenclass{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+.imageconatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.textcontainers{
+    margin-bottom: 100px;
+
+}
+.signup2{
+    padding-left: 50px; 
+    background-color: #387ed1; 
+    font-size: larger; 
+    font-family: sans-serif; 
+    padding-right: 25px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    padding-left: 25px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: white;
+    font-weight: 500;
+}
+.signup2:hover{
+    background-color: #211e1e;
+}
